@@ -5,7 +5,7 @@ int main() {
 
 	for (int i = 0; i < 12; i++) {
 		date[i][0] = i + 1;
-		printf("%d¿ù\n", date[i][0]);
+		printf("%dì›”\n", date[i][0]);
 		for (int j = 0; j < 31; j++) {
 			if (i == 3 || i == 5 || i == 8 || i == 10) {
 				if (j == 30) {
